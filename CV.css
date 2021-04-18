@@ -1,1 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+* {
+    box-sizing: border-box;
+}
 
+:root{
+    --primary: #1D4ED8 ;
+    --secondary: #FB923C    ;
+    --white: #ffffff;
+}
+
+/* for body element*/
+body{
+
+}
+
+/* for navigation bar */
+.navigation{
+    background-color: var(--secondary);
+    padding: 1rem 0rem;
+    color: var(--white);
+    /*border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;*/
+}
+
+.navigation .Brand-name{
+    position: absolute;
+    font-weight: 700;
+    font-style: oblique;
+    margin-left: 80px;  
+    font-size: 25px;
+}
+
+.navigation ul{
+    list-style: none;
+    text-align: center;
+}
+
+.navigation ul li{
+    display: inline;
+    padding: 0rem 0.1rem;
+} 
+
+.navigation ul li a{
+    font-weight: 400;
+    color: var(--white);
+} 
+
+.navigation ul li a.active{
+    font-weight: 700;
+    color: var(--white);
+} 
+
+.link {
+    min-width: 140px;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    text-decoration: none;
+}
+
+img{
+    max-width: 350px;
+    margin-top: 70px;
+    margin-left: 200px;
+    
+}
+
+.profile{
+    border-radius: 70%;
+    border:10px solid white;
+    height: 300px;
+    width: 300px;
+    background-color: #E5E5E5;
+}
+.text{
+   position: absolute;
+   right: 300px;
+   bottom: 260px;
+   font-size: 40px;
+   font-family: 'Zen Dots', cursive;
+}
+
+section{
+    padding: 2rem;
+    background-color: #FFEDD5
+    ;
+}
+
+section h2{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+
+
+ul li {
+    display: inline;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
